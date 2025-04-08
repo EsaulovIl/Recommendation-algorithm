@@ -713,8 +713,3 @@ def load_data():
 if __name__ == '__main__':
     create_data()
     insert_data()
-
-
-
-def get_connection():
-    return sqlite3.connect('your_database.db')
